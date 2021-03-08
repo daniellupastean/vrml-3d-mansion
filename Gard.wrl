@@ -1,0 +1,211 @@
+#VRML V2.0 utf8
+
+DEF	Temelie Appearance {
+	texture	ImageTexture {
+	url	"Texturi/temelie.jpg"
+	}
+
+}
+
+DEF	Capac2 Appearance {
+	texture	ImageTexture {
+	url	"Texturi/capac2.jpg"
+	}
+
+}
+
+DEF	Negru Appearance{
+	material Material {
+	diffuseColor 0 0 0
+	}
+
+}
+
+Transform {
+translation	0 0 0
+children [
+	Inline {
+		url	"Stalp.wrl"
+	}
+
+
+]
+}
+
+Transform{
+	translation	1.25 -0.6 0
+	children [
+		Shape {
+		appearance USE Temelie
+		geometry Box{
+			size 2 0.8 0.35		
+		}
+	}
+]
+}
+
+Transform{
+	translation	1.25 -0.175 0
+	children [
+		Shape {
+		appearance USE Capac2
+		geometry Box{
+			size 2 0.05 0.5		
+		}
+	}
+]
+}
+
+
+#plasa de gard
+
+
+Transform{
+	translation	1.25 -0.08 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 2 0.03 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	1.25 0.75 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 2 0.03 0.03		
+		}
+	}
+]
+}
+
+
+Transform{
+	translation	0.35 0.425 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1 0.03		
+		}
+	}
+]
+}
+
+
+ Transform{
+	translation	0.55 0.425 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	0.75 0.425 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1 0.03		
+		}
+	}
+]
+}
+
+
+Transform{
+	translation	0.95 0.425 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1 0.03		
+		}
+	}
+]
+}
+
+
+Transform{
+	translation	1.15 0.425 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1 0.03		
+		}
+	}
+]
+}
+
+
+Transform{
+	translation	1.35 0.425 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	1.55 0.425 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	1.75 0.425 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	1.95 0.425 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1 0.03		
+		}
+	}
+]
+}
+
+
+Transform{
+	translation	2.15 0.425 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1 0.03		
+		}
+	}
+]
+}

@@ -1,0 +1,182 @@
+#VRML V2.0 utf8
+
+
+
+DEF	Negru Appearance{
+	material Material {
+	diffuseColor 0 0 0
+	}
+
+}
+
+
+#plasa de gard
+
+DEF	Poarta Transform {
+	translation	0 0.05 0
+	center 0.19 0 0
+	children[
+
+Transform{
+	translation	0.94 -0.875 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 1.65 0.03 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	1.05 -0.775 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 1.4 0.03 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	0.94 0.75 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 1.65 0.03 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	1.05 0.65 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 1.4 0.03 0.03		
+		}
+	}
+]
+}
+
+
+Transform{
+	translation	0.35 0.025 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1.8 0.03		
+		}
+	}
+]
+}
+
+
+ Transform{
+	translation	0.55 0.025 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1.8 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	0.75 0.025 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1.8 0.03		
+		}
+	}
+]
+}
+
+
+Transform{
+	translation	0.95 0.025 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1.8 0.03		
+		}
+	}
+]
+}
+
+
+Transform{
+	translation	1.15 0.025 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1.8 0.03		
+		}
+	}
+]
+}
+
+
+Transform{
+	translation	1.35 0.025 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1.8 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	1.55 0.025 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1.8 0.03		
+		}
+	}
+]
+}
+
+Transform{
+	translation	1.75 0.025 0
+	children [
+		Shape {
+		appearance USE Negru
+		geometry Box{
+			size 0.03 1.8 0.03		
+		}
+	}
+	]
+}
+
+DEF SenzorPoarta CylinderSensor {
+		   maxAngle 1.57
+        	minAngle 0
+         
+      }
+
+]
+ROUTE SenzorPoarta.rotation_changed TO Poarta.set_rotation
+
+}
+
+
+
+

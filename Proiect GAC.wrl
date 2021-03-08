@@ -1,0 +1,4890 @@
+#VRML V2.0 utf8
+
+
+Inline {
+url	"Text.wrl"
+
+}
+
+
+
+DEF	Texturi Group{
+	children[
+
+
+DEF Negru Appearance{	material Material{
+				diffuseColor 0 0 0
+			}}
+DEF Gri Appearance{	material Material{
+				diffuseColor 0.2 0.2 0.2
+			}}
+
+DEF White Appearance{
+	material Material {
+		diffuseColor 1.00 1.00 1.00
+	}
+}
+
+DEF	Beton1 Appearance{
+	texture ImageTexture{
+		url"Texturi/beton1.jpg"
+	}
+}
+
+DEF	Beton2 Appearance{
+	texture ImageTexture{
+		url"Texturi/beton2.jpg"
+	}
+}
+
+DEF	Perete1 Appearance{
+	texture ImageTexture{
+		url"Texturi/perete1.jpg"
+	}
+}
+
+DEF	Perete2 Appearance{
+	texture ImageTexture{
+		url"Texturi/perete2.jpg"
+	}
+}
+
+
+
+
+DEF	Perete3 Appearance{
+	texture ImageTexture{
+		url"Texturi/perete3.jpg"
+	}
+}
+
+
+DEF	Geam1 Appearance{
+	texture ImageTexture{
+		url"Texturi/geam1.jpg"
+	}
+}
+
+DEF	On Appearance{
+	texture ImageTexture{
+		url"Texturi/on.png"
+	}
+}
+
+
+DEF	Geam4 Appearance{
+	texture ImageTexture{
+		url"Texturi/geam4.jpg"
+	}
+}
+
+
+DEF	Pavaj1 Appearance{
+	texture ImageTexture{
+		url"Texturi/pavaj1.jpg"
+	}
+}
+
+DEF	Pavaj2 Appearance{
+	texture ImageTexture{
+		url"Texturi/pavaj2.jpg"
+	}
+}
+
+DEF	Pavaj3 Appearance{
+	texture ImageTexture{
+		url"Texturi/pavaj3.jpg"
+	}
+}
+
+DEF	Pavaj4 Appearance{
+	texture ImageTexture{
+		url"Texturi/pavaj4.jpg"
+	}
+}
+DEF	Pavaj5 Appearance{
+	texture ImageTexture{
+		url"Texturi/pavaj5.jpg"
+	}
+}
+
+DEF	Iarba2 Appearance{
+	texture ImageTexture{
+		url"Texturi/iarba2.jpg"
+	}
+}
+
+DEF	Iarba3 Appearance{
+	texture ImageTexture{
+		url"Texturi/iarba3.jpg"
+	}
+}
+
+DEF	Usa1 Appearance{
+	texture ImageTexture{
+		url"Texturi/usa1.jpg"
+	}
+}
+
+DEF	Usa2 Appearance{
+	texture ImageTexture{
+		url"Texturi/usa2.png"
+	}
+}
+
+
+
+
+DEF	Usa3 Appearance{
+	texture ImageTexture{
+		url"Texturi/usa3.png"
+	}
+}
+
+
+DEF	Trotuar1 Appearance{
+	texture ImageTexture{
+		url"Texturi/trotuar1.jpg"
+	}
+}
+
+DEF Bordura1 Appearance{
+	texture ImageTexture{
+		url"Texturi/bordura1.jpg"
+	}
+}
+
+DEF Tigla1 Appearance{
+	texture ImageTexture{
+		url"Texturi/tigla1.jpg"
+		repeatS	TRUE
+		repeatT	TRUE
+	}
+}
+
+DEF Tigla11 Appearance{
+	texture ImageTexture{
+		url"Texturi/tigla11.jpg"
+		repeatS	TRUE
+		repeatT	TRUE
+	}
+}
+
+
+
+DEF Tigla2 Appearance{
+	texture ImageTexture{
+		url"Texturi/tigla2.jpg"
+		repeatS	TRUE
+		repeatT	TRUE
+	}
+}
+
+
+DEF Tigla3 Appearance{
+	texture ImageTexture{
+		url"Texturi/tigla3.jpg"
+		repeatS	TRUE
+		repeatT	TRUE
+	}
+}
+
+DEF Tigla4 Appearance{
+	texture ImageTexture{
+		url"Texturi/tigla4.jpg"
+		repeatS	TRUE
+		repeatT	TRUE
+	}
+}
+
+
+DEF Garaj1 Appearance{
+	texture ImageTexture{
+		url"Texturi/garaj1.jpg"
+	}
+}
+DEF Intrerupator Appearance{
+	texture ImageTexture{
+		url"Texturi/intrerupator.png"
+	}
+}
+
+
+
+]
+}
+
+
+
+Background {
+	skyAngle [ .05, .1, 2 ]
+	skyColor [ 1 1 0, 1 1 0.5, 0 0 0.5, 0.2 1 1 ]
+	groundAngle [ 1.57 ]
+	groundColor [ 0.14 0.28 0, 0.09 0.11 0 ]
+	}
+
+DEF	Viewpoint-uri Group	{
+	children [
+			
+		Viewpoint {
+			position 0 -20 0
+			orientation	1 0 0 1.57
+			description	"Start"
+			jump FALSE
+		}
+		Viewpoint {
+			position -1 20 16
+			orientation	1 0 0 -1
+			description	"Deasupra"
+			jump FALSE
+		}
+
+
+		Viewpoint {
+			position 0 2 20
+			description	"Fata"
+			jump FALSE
+		}
+		Viewpoint {
+			position 15 2 15
+			orientation	0 1 0 0.785
+			description	"Fata-Dreapta"
+			jump FALSE
+		}
+		Viewpoint {
+			position 20 2 0
+			orientation	0 1 0 1.57
+			description	"Dreapta"
+			jump FALSE
+		}
+
+		Viewpoint {
+			position 0 2 -20
+			orientation	0 1 0 3.14
+			description	"Spate"
+			jump FALSE
+		}
+
+		Viewpoint {
+			position -20 2 0
+			orientation	0 1 0 -1.57
+			description	"Stanga"
+			jump FALSE
+		}
+
+		Viewpoint {
+			position -15 2 15
+			orientation	0 1 0 -0.785
+			description	"Fata-Stanga"
+			jump FALSE
+		}
+		
+
+		
+
+		Viewpoint {
+			position 5 1 6
+			orientation	0 1 0 0.785
+			description	"Scari"
+			jump FALSE
+		}
+	
+	
+	
+	]
+	
+}
+
+
+
+Transform {
+	translation	-0.4 -0.3 0.5
+	children[
+Shape{
+	appearance USE	Gri
+	geometry Box{
+		size 20 1 22
+	}
+}
+]
+}
+
+	
+DEF Casa Transform{
+	translation	1.2 0 0
+	children [
+Group {	
+	children [
+Transform {
+	translation	0.0 1.75 -2.0
+	
+	children Shape {
+		appearance USE Perete1
+		geometry Box {
+			size 6.5 3.5 6.0
+		}
+	}
+}
+Transform {									   #bordura temelie
+	translation	0.0 0.4 -2.0
+	
+	children Shape {
+		appearance USE Bordura1
+		geometry Box {
+			size 6.6 0.5 6.1
+		}
+	}
+}
+
+
+DEF	Geamuri Group{
+	children[
+Transform {
+	translation	-2.1 1.55 0.97
+	
+	children Inline{
+		url	"Geam.wrl"
+	}
+}
+
+Transform {
+	translation	-0.97 1.55 1.75		#geam luminator stanga jos
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+Transform {
+	translation	-0.97 2.7 1.75		#geam luminator stanga sus
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+
+Transform {
+	translation	0.97 1.55 1.75 	#geam luminator dreapta jos
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+Transform {
+	translation	0.97 2.7 1.75		#geam luminator dreapta sus
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+
+Transform {
+	translation	2.1 1.55 0.97
+	
+	children Inline{
+		url	"Geam.wrl"
+	}
+}
+Transform {
+	translation	-2.1 2.7 0.97
+	
+	children Inline{
+		url	"Geam.wrl"
+	}
+}
+
+Transform {
+	translation	2.1 2.7 0.97
+	
+	children Inline{
+		url	"Geam.wrl"
+	}
+}
+
+Transform {
+	translation	3.22 1.55 0.5		#geam laterala casa dreapta jos
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+Transform {
+	translation 3.22 2.7 0.5		#geam laterala casa dreapta sus
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+Transform{
+	translation 3.25 4.4 -2
+	rotation 1 0 0 -1.57
+	scale 0.3 0.3 0.3
+	children[								 #geam triunghi casa dreapta
+		Inline {
+		url "Triunghi4.wrl"
+		}
+	
+	]
+
+
+}
+
+Transform{
+	translation -3.26 4.5 -2
+	rotation 1 0 0 -1.57
+	scale 0.3 0.3 0.3
+	children[								 #geam triunghi casa stanga
+		Inline {
+		url "Triunghi4.wrl"
+		}
+	
+	]
+
+
+}
+
+
+Transform {
+	translation	-3.22 1.55 0.5		#geam laterala casa stanga jos
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+Transform {
+	translation -3.22 2.7 0.5		#geam laterala casa stanga sus
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+Transform {
+	translation 5.52 1.55 -1		#geam laterala centrala dreapta sus
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+Transform {
+	translation 5.52 1.55 -2		#geam laterala centrala dreapta sus
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+Transform {
+	translation 5.52 1.55 -3		#geam laterala centrala dreapta sus
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam2.wrl"
+	}
+}
+
+
+
+
+Transform {
+	translation -7.72 2.2 -3.55		#geam laterala garaj
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam4.wrl"
+	}
+}
+
+Transform {
+	translation -7.72 2.2 -1.55		#geam laterala garaj
+	rotation 0 1 0 1.57
+	children Inline{
+		url	"Geam4.wrl"
+	}
+}
+
+Transform{
+	translation -7.76 3.4 -2.5
+	rotation 1 0 0 -1.57
+	scale 0.3 0.3 0.3
+	children[								 #geam triunghi garaj
+		Inline {
+		url "Triunghi4.wrl"
+		}
+	
+	]
+
+
+}
+
+
+]
+}
+
+Transform {
+	translation	-7.45 1.2 -0.28
+	
+	children[ 
+		DEF SENSOR TouchSensor {
+      }
+		Shape {			          #usa garaj
+		appearance USE Intrerupator
+		geometry Box {
+			size 0.3  0.4 0.1
+		}
+	}
+]
+}
+
+Transform {
+
+	translation	0 1.3 2.47	
+	children [
+		Shape {			          #usa
+		appearance USE Usa2
+		geometry Box {
+			size 1  1.3 0.1
+		}
+	}
+]
+}
+
+
+
+
+
+Transform {
+
+	translation	-0.7 2.2 2.47	
+	children [
+		Shape {			          #becStanga
+		appearance USE White
+		geometry Box {
+			size 0.15  0.2 0.1
+		}
+	}
+]
+}Transform {
+
+	translation	0.7 2.2 2.47	
+	children [
+		Shape {			          #becDreapta
+		appearance USE White
+		geometry Box {
+			size 0.15  0.2 0.1
+		}
+	}
+]
+}
+
+DEF	IntrerupatorCuSenzor Transform {
+	children[
+	DEF SENSOR2 TouchSensor {
+      }
+Transform {
+
+	translation	0.6 1.25 2.47	
+	children [
+		Shape {			          #Intrerupator
+		appearance USE Intrerupator
+		geometry Box {
+			size 0.1  0.15 0.1
+		}
+	}
+]
+}
+]
+}
+
+
+DEF	BecuriCasa Transform {
+	children [
+		DEF CYCLE2 Script {
+   eventIn SFTime touchTime
+   field SFInt32 number 2
+   eventOut SFInt32 output
+   url "javascript:
+      function initialize() {
+         output = 0;
+      }
+      function touchTime(value, time) {
+         if (output == number - 1) output = 0;
+         else ++output;
+      }
+   "
+}
+
+
+DEF SWITCH2 Switch {
+   whichChoice 0
+   choice [
+	  Inline {
+			url	 "Gol.wrl"
+		}
+      Inline {
+			url	"Lumini.wrl"
+		} 
+   ]
+}
+
+
+
+	]
+}
+
+
+
+
+Transform {
+	translation	0 2.8 2.47
+	
+	children Inline{
+		url	"Geam.wrl"
+	}
+}
+
+DEF	Scara Transform	{
+	children[
+Transform {
+	translation	0 0.6 2.5
+	
+	children Shape {					  #treapta 4
+		appearance USE Beton2
+		geometry Box {
+			size 1.2 0.11 1
+		}
+	}
+}
+Transform {
+	translation	0 0.49 2.5
+	
+	children Shape {					  #treapta 3
+		appearance USE Beton2
+		geometry Box {
+			size 1.2 0.11 1.2
+		}
+	}
+}
+
+Transform {
+	translation	0 0.38 2.5
+	
+	children Shape {					  #treapta 2
+		appearance USE Beton2
+		geometry Box {
+			size 1.2 0.11 1.4
+		}
+	}
+}
+
+Transform {
+	translation	0 0.2625 2.5
+	
+	children Shape {					  #treapta 1
+		appearance USE Beton2
+		geometry Box {
+			size 1.2 0.125 1.6
+		}
+	}
+}
+
+
+DEF	Maner Transform{
+	translation	0 0 0
+	children [
+
+Transform{
+	translation	-0.57 0.7 2.75
+	rotation 1 0 0 1.57
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.55 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 1 2.75
+	rotation 1 0 0 1.57
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.55 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.56 3.16
+	rotation 1 0 0 -0.785398
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.86 3.16
+	rotation 1 0 0 -0.785398
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+
+Transform{
+	translation	-0.57 0.85 2.55
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.6
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.65
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.7
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+
+Transform{
+	translation	-0.57 0.85 2.75
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.8
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.85
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.9
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.95
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 3.01
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.8 3.075
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.74 3.13
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.685 3.18
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.63 3.235
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+Transform{
+	translation	-0.57 0.52 3.2975
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+]
+}
+
+ DEF	Maner Transform{
+	translation	1.14 0 0
+	children [
+
+Transform{
+	translation	-0.57 0.7 2.75
+	rotation 1 0 0 1.57
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.55 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 1 2.75
+	rotation 1 0 0 1.57
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.55 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.56 3.16
+	rotation 1 0 0 -0.785398
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.86 3.16
+	rotation 1 0 0 -0.785398
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+
+Transform{
+	translation	-0.57 0.85 2.55
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.6
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.65
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.7
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+
+Transform{
+	translation	-0.57 0.85 2.75
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.8
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.85
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.9
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.95
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 3.01
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.8 3.075
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.74 3.13
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.685 3.18
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.63 3.235
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+Transform{
+	translation	-0.57 0.52 3.2975
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+]
+}
+
+
+
+
+
+
+
+]
+}
+
+
+DEF	Scara2 Transform	{
+	translation	4.4 0 -2.8
+	scale 0.8 1 1 
+	children[
+Transform {
+	translation	0 0.6 2.5
+	
+	children Shape {					  #treapta 4
+		appearance USE Beton2
+		geometry Box {
+			size 1.2 0.11 1
+		}
+	}
+}
+Transform {
+	translation	0 0.49 2.5
+	
+	children Shape {					  #treapta 3
+		appearance USE Beton2
+		geometry Box {
+			size 1.2 0.11 1.2
+		}
+	}
+}
+
+Transform {
+	translation	0 0.38 2.5
+	
+	children Shape {					  #treapta 2
+		appearance USE Beton2
+		geometry Box {
+			size 1.2 0.11 1.4
+		}
+	}
+}
+
+Transform {
+	translation	0 0.2625 2.5
+	
+	children Shape {					  #treapta 1
+		appearance USE Beton2
+		geometry Box {
+			size 1.2 0.125 1.6
+		}
+	}
+}
+
+
+DEF	Maner Transform{
+	translation	0 0 0
+	children [
+
+Transform{
+	translation	-0.57 0.7 2.75
+	rotation 1 0 0 1.57
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.55 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 1 2.75
+	rotation 1 0 0 1.57
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.55 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.56 3.16
+	rotation 1 0 0 -0.785398
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.86 3.16
+	rotation 1 0 0 -0.785398
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+
+Transform{
+	translation	-0.57 0.85 2.55
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.6
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.65
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.7
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+
+Transform{
+	translation	-0.57 0.85 2.75
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.8
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.85
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.9
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.95
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 3.01
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.8 3.075
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.74 3.13
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.685 3.18
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.63 3.235
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+Transform{
+	translation	-0.57 0.52 3.2975
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+]
+}
+
+ DEF	Maner Transform{
+	translation	1.14 0 0
+	children [
+
+Transform{
+	translation	-0.57 0.7 2.75
+	rotation 1 0 0 1.57
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.55 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 1 2.75
+	rotation 1 0 0 1.57
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.55 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.56 3.16
+	rotation 1 0 0 -0.785398
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.86 3.16
+	rotation 1 0 0 -0.785398
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+
+Transform{
+	translation	-0.57 0.85 2.55
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.6
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.65
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.7
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+
+Transform{
+	translation	-0.57 0.85 2.75
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.8
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.85
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+
+Transform{
+	translation	-0.57 0.85 2.9
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 2.95
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.85 3.01
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.8 3.075
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.74 3.13
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.685 3.18
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+
+Transform{
+	translation	-0.57 0.63 3.235
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.3 0.02
+		}
+	}
+	
+	]
+
+}
+Transform{
+	translation	-0.57 0.52 3.2975
+	children[
+	   Shape {					  
+		appearance USE Negru
+		geometry Box {
+			size 0.02 0.4 0.02
+		}
+	}
+	
+	]
+
+}
+
+]
+}
+
+
+
+
+
+
+
+]
+}
+
+
+
+
+Transform{
+	translation 0 4.3 -0.25
+	rotation 1 0 0 -1
+	children[						        #acoperis
+		Shape{
+		appearance USE Tigla1
+		geometry Box {
+			size 7.2 4.22 0.1
+		}
+		}
+	
+	]
+
+}
+Transform{
+	translation 0 4.3 -3.75
+	rotation 1 0 0 1
+	children[								 #acoperis
+		Shape{
+		appearance USE Tigla1
+		geometry Box {
+			size 7.2 4.22 0.1
+		}
+		}
+	
+	]
+
+}
+
+Transform{
+	translation -3.25 3.5 -2
+	rotation 1 0 0 -1.57
+	children[								 #triunghi stanga
+		Inline {
+		url "Triunghi.wrl"
+		}
+	
+	]
+
+
+}
+
+
+Transform{
+	translation 3.25 3.5 -2
+	rotation 1 0 0 -1.57
+	children[								 #triunghi dreapta
+		Inline {
+		url "Triunghi.wrl"
+		}
+	
+	]
+
+
+}
+
+
+
+Transform{
+	translation 0 3.5 2.5
+	rotation 1 0 0 -1.57
+	scale 0.35 0.35 0.35
+	children[								 #triunghi fata
+		Inline {
+		url "Triunghi2.wrl"
+		}
+	
+	]
+
+
+}
+
+
+Transform{
+	translation 0 3.55 2.51
+	rotation 1 0 0 -1.57
+	scale 0.17 0.17 0.17
+	children[								 #geam triunghi fata
+		Inline {
+		url "Triunghi5.wrl"
+		}
+	
+	]
+
+
+}
+
+
+Transform {
+	rotation 0 1 0 1.57
+	children[
+Transform{
+	translation -1.4 3.8 0.6
+	rotation 1 0 0 -1
+	children[						        #acoperis luminator
+		Shape{				 
+		appearance USE Tigla11
+		geometry Box {
+			size 3 1.5 0.1
+		}
+		}
+	
+	]
+
+}
+]
+}
+
+Transform {
+	rotation 0 1 0 1.57
+	children[
+Transform{
+	translation -1.4 3.8 -0.6
+	rotation 1 0 0 1
+	children[								 #acoperis	luminator
+		Shape{
+		appearance USE Tigla11
+		geometry Box {
+			size 3 1.5 0.1
+		}
+		}
+	
+	]
+
+}
+]
+}
+
+
+Transform {
+	translation	0.0 1.75 1.75			   #perete luminator
+	
+	children Shape {
+		appearance USE Perete2
+		geometry Box {
+			size 2 3.5 1.5
+		}
+	}
+}
+
+
+Transform {									   #bordura temelie
+	translation	0.0 0.4 1.75
+	
+	children Shape {
+		appearance USE Bordura1
+		geometry Box {
+			size 2.1 0.5 1.6
+		}
+	}
+}
+
+
+Transform {
+	translation	4.4 1.65 -2			   #perete centrala
+	
+	children Shape {
+		appearance USE Perete3
+		geometry Box {
+			size 2.3 2.5 3.5
+		}
+	}
+}
+
+
+Transform {									   #bordura temelie centrala
+	translation	4.4 0.4 -2
+	
+	children Shape {
+		appearance USE Bordura1
+		geometry Box {
+			size 2.4 0.5 3.6
+		}
+	}
+}
+
+DEF UsaCentrala Transform {
+	translation	4.4 1.3 -0.28
+	center -0.35 0 0 
+	children[
+	   DEF	SenzorUsaCentrala CylinderSensor {
+			minAngle -1.64
+			maxAngle 0
+		} 
+		Shape {			          #usa centrala
+		appearance USE Usa3
+		geometry Box {
+			size 0.7  1.3 0.1
+		}
+	}
+]
+}
+
+Transform {
+	translation	4.4 1.3 -0.25
+	
+	children[
+	    
+	    Shape {			          #masca usa centrala
+		appearance USE Gri
+		geometry Box {
+			size 0.7  1.3 0.02
+		}
+	}
+]
+}
+
+Transform{
+	translation 4.3 3.38 -0.93
+	rotation 1 0 0 -1
+	children[						        #acoperis  centrala
+		Shape{
+		appearance USE Tigla2
+		geometry Box {
+			size 3 2.6 0.1
+		}
+		}
+	
+	]
+
+}
+Transform{
+	translation 4.3 3.38 -3.07
+	rotation 1 0 0 1
+	children[								 #acoperis centrala
+		Shape{
+		appearance USE Tigla2
+		geometry Box {
+			size 3 2.6 0.1
+		}
+		}
+	
+	]
+
+}
+
+Transform{
+	translation 5.55 2.88 -2
+	rotation 1 0 0 -1.57
+	scale 0.59 0.59 0.59
+	children[								 #triunghi centrala
+		Inline {
+		url "Triunghi3.wrl"
+		}
+	
+	]
+
+
+}
+
+
+Transform{
+	translation 5.57 3.1 -2
+	rotation 1 0 0 -1.57
+	scale 0.3 0.3 0.3
+	children[								 #geam triunghi centrala
+		Inline {
+		url "Triunghi4.wrl"
+		}
+	
+	]
+
+
+}
+
+
+
+
+
+Transform {
+	translation	-5.5 1.65 -2.5			   #perete garaj
+	
+	children Shape {
+		appearance USE Perete3
+		geometry Box {
+			size 4.5 2.5 4.5
+		}
+	}
+}
+
+
+Transform {									   #bordura temelie garaj
+	translation	-5.5 0.4 -2.524
+	
+	children Shape {
+		appearance USE Bordura1
+		geometry Box {
+			size 4.6 0.5 4.55
+		}
+	}
+}
+
+Transform{
+	translation -5.635 3.53 -1.2
+	rotation 1 0 0 -1
+	children[						        #acoperis  garaj
+		Shape{
+		appearance USE Tigla3
+		geometry Box {
+			size 4.8 3.15 0.1
+		}
+		}
+	
+	]
+
+}
+Transform{
+	translation -5.63 3.53 -3.8
+	rotation 1 0 0 1
+	children[								 #acoperis garaj
+		Shape{
+		appearance USE Tigla3
+		geometry Box {
+			size 4.8 3.15 0.1
+		}
+		}
+	
+	]
+
+}
+
+Transform{
+	translation -7.75 2.88 -2.5
+	rotation 1 0 0 -1.57
+	scale 0.754 0.754 0.754
+	children[								 #triunghi garaj
+		Inline {
+		url "Triunghi3.wrl"
+		}
+	
+	]
+
+
+}
+
+
+Transform {
+	translation	-5.5 1.15 -0.28
+	
+	children Shape {			          #usa garaj
+		appearance USE Garaj1
+		geometry Box {
+			size 3.2  1.8 0.1
+		}
+	}
+}
+
+
+
+
+
+]
+}
+]
+}
+
+
+DEF Gard Transform{
+	translation -2 0 0
+	scale 0.8 0.8 0.8
+	children [
+
+		Transform {				 
+			translation -7  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {
+			translation -5  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {
+			translation -3  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {
+			translation -1  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {
+			translation 1  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {
+			translation 3  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {
+			translation 5  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 7  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 9  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 11  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 13  1  -11
+			rotation 0 1 0 3.14
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+
+		Transform {
+			translation -9  1  -11
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {
+			translation -9  1  -9
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {
+			translation -9  1  -7
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation -9  1  -5
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation -9  1  -3
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation -9  1  -1
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation -9  1  1
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation -9  1  3
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation -9  1  5
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation -9  1  7
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation -9  1  9
+			rotation 0 1 0 -1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+
+
+
+
+
+		
+
+		Transform {
+			translation 13  1  -9
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {
+			translation 13  1  -7
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 13  1  -5
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 13  1  -3
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 13  1  -1
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 13  1  1
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 13  1  3
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 13  1  5
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 13  1  7
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {
+			translation 13  1  9
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {
+			translation 13  1  11
+			rotation 0 1 0 1.57
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+
+
+
+
+
+		Transform {							#gard fata
+			translation 11  1  11
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {							#gard fata
+			translation 9  1  11
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+		Transform {							#gard fata
+			translation 7  1  11
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {							#gard fata
+			translation 5  1  11
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard2.wrl"
+				}
+			
+			]
+		}
+
+		Transform {							#gard fata
+			translation 3.1  1  11
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Stalp2.wrl"
+				}
+			
+			]
+		}
+
+		Transform {							#poarta mica
+			translation 3.25  1  11
+			scale 0.74 0.8 0.8
+			children [
+				Inline {
+					url	"PoartaMica.wrl"
+				}
+			
+			]
+		}
+
+
+
+		Transform {							#gard fata
+			translation 1  1  11
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+
+		Transform {							#gard fata
+			translation -1  1  11
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard2.wrl"
+				}
+			
+			]
+		}
+
+
+		Transform {							#gard fata
+			translation -4.9  1  11
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Stalp2.wrl"
+				}
+			
+			]
+		}
+
+		Transform {							#poarta mare
+			translation -4.825  1.05  10.79
+			scale 0.77 0.8 0.8
+			children [
+				Inline {
+					url	"PoartaMare.wrl"
+				}
+			
+			]
+		}
+
+
+		Transform {							#gard fata
+			translation -7  1  11
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+		Transform {							#gard fata
+			translation -9  1  11
+			scale 0.8 0.8 0.8
+			children [
+				Inline {
+					url	"Gard.wrl"
+				}
+			
+			]
+		}
+
+	]
+}
+
+
+DEF	Ograda Transform {
+	translation	0.2 0 0
+	scale	1 1.2 1					  
+	children[
+
+		DEF	PlaciGazon Transform	{
+			translation	0 0 0
+			children [
+				DEF Gazon1 Transform{
+					children [
+				Transform {
+					translation	-8.05 0.15 -7.9			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 1.8 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -5.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -3.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 -0.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 1.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 4.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 6.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 9.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+
+			 ]
+		        }
+				DEF Gazon2 Transform{
+					translation	2.5 0 0 
+					children [
+				Transform {
+					translation	-8.05 0.15 -7.9			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 1.8 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -5.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -3.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 -0.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 1.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 4.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 6.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 9.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+
+			 ]
+		        }
+				DEF Gazon3 Transform{
+					translation	5 0 0 
+					children [
+				Transform {
+					translation	-8.05 0.15 -7.9			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 1.8 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -5.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -3.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 -0.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 1.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 4.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 6.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 9.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+
+			 ]
+		        }
+				DEF Gazon4 Transform{
+					translation	7.5 0 0
+					children [
+				Transform {
+					translation	-8.05 0.15 -7.9			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 1.8 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -5.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -3.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 -0.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 1.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 4.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 6.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 9.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+
+			 ]
+		        }
+				DEF Gazon5 Transform{
+					translation	10 0 0
+					children [
+				Transform {
+					translation	-8.05 0.15 -7.9			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 1.8 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -5.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -3.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 -0.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 1.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 4.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 6.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 9.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+
+			 ]
+		        }
+				DEF Gazon6 Transform{
+					translation	12.5 0 0
+					children [
+				Transform {
+					translation	-8.05 0.15 -7.9			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 1.8 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -5.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -3.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 -0.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 1.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 4.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 6.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 9.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+
+			 ]
+		        }
+				DEF Gazon7 Transform{
+					translation	15 0 0
+					children [
+				Transform {
+					translation	-8.05 0.15 -7.9			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 1.8 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -5.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 -3.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 -0.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 1.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				Transform {
+					translation	-8.05 0.15 4.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 6.75			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.05 0.15 9.25			  
+					children [
+						Shape{
+							appearance USE Iarba3
+							geometry Box{
+								size 2.5 0.05 2.5 
+							}
+
+		        		}
+					]
+				 }
+
+			 ]
+		        }
+
+				 
+			]
+		}
+		DEF	Pavaj Transform {
+					children [
+				Transform {
+					translation	-4.5 0.18 1.25
+					children [
+						Shape{
+							appearance USE Pavaj1
+							geometry Box{
+								size 4.4 0.05 3 
+							}
+
+		        		}
+					]
+				 }
+
+		 
+				 Transform {
+					translation	-4.5 0.18 4.25			  #pavaj garaj
+					children [
+						Shape{
+							appearance USE Pavaj1
+							geometry Box{
+								size 4.4 0.05 3 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-4.5 0.18 7.325			  #pavaj garaj
+					children [
+						Shape{
+							appearance USE Pavaj1
+							geometry Box{
+								size 4.4 0.05 3.15 
+							}
+
+		        		}
+					]
+				 }
+
+
+				  Transform {
+					translation	1 0.18 4.1
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	1 0.18 5.7
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	1 0.18 7.3
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	1 0.18 8.5
+					children [
+						Shape{
+							appearance USE Pavaj5
+							geometry Box{
+								size 1.2 0.05 0.8 
+							}
+
+		        		}
+					]
+				 }
+
+
+				 Transform {
+					translation	-0.275 0.18 4.1
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.35 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-1.625 0.18 4.1
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.35 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	2.275 0.18 4.1
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.35 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	3.625 0.18 4.1
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.35 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	5.0875 0.18 4.1
+					children [
+						Shape{
+							appearance USE Pavaj3
+							geometry Box{
+								size 1.575 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	5.4 0.18 2.5
+					children [
+						Shape{
+							appearance USE Pavaj4
+							geometry Box{
+								size 0.95 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	5.4 0.18 1.1
+					children [
+						Shape{
+							appearance USE Pavaj4
+							geometry Box{
+								size 0.95 0.05 1.2 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	1 0.18 8.5
+					children [
+						Shape{
+							appearance USE Pavaj5
+							geometry Box{
+								size 1.2 0.05 0.8 
+							}
+
+		        		}
+					]
+				 }
+
+
+				 #Pavaj in fata curtii
+
+				 Transform {
+					translation	1 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	2.2 .18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	3.4 .18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	4.6 .18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	5.8 .18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	7 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	7.98 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj4
+							geometry Box{
+								size 0.76 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-0.2 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-1.4 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-2.6 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-3.8 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-5 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.2 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-7.4 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.2 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-8.775 0.18 9.70
+					children [
+						Shape{
+							appearance USE Pavaj2
+							geometry Box{
+								size 1.55 0.05 1.6 
+							}
+
+		        		}
+					]
+				 }
+			 ]
+		 }
+		DEF	BorduriPavaj Transform {
+			children [
+		DEF	BorduraPavaj Transform {
+					translation	0 0 0
+					 children [
+				 Transform {
+					translation	-6.7 0.2 0.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 0.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 1.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 2.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 3.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 3.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 4.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 5.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 6.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 6.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 7.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 8.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+			 ]}
+		 
+			DEF	BorduraPavaj2 Transform {
+					translation	4.301 0 -0.2
+					 children [
+				 Transform {
+					translation	-6.7 0.2 0.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 0.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 1.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 2.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 3.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+		
+		 
+
+
+
+				 Transform {
+					translation	-6.7 0.2 5.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 6.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 6.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 7.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 8.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 8.85
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.2 
+							}
+
+		        		}
+					]
+				 }
+
+			 ]}
+
+
+
+		DEF	BorduraPavaj3 Transform {
+					translation	-2.044 0 -1.8
+					rotation 0 1 0 1.57
+					 children [
+				 Transform {
+					translation	-6.7 0.2 0.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 0.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 1.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 2.225
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.45 
+							}
+
+		        		}
+					]
+				 }
+		
+				 Transform {
+					translation	-6.7 0.2 3.95
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 4.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 5.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 6.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 6.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 7.59
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.68 
+							}
+
+		        		}
+					]
+				 }
+		 
+
+			 ]}
+
+		DEF	BorduraPavaj4 Transform {
+					translation	-2.044 0 -3.5
+					rotation 0 1 0 1.57
+					 children [
+				 Transform {
+					translation	-6.7 0.2 0.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 0.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 1.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 2.225
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.45 
+							}
+
+		        		}
+					]
+				 }
+		
+				 Transform {
+					translation	-6.7 0.2 3.95
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.6 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 4.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 5.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 6.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 6.73675
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.4735 
+							}
+
+		        		}
+					]
+				 }
+		 
+		 
+
+			 ]}
+
+		DEF	BorduraPavajCentralaDreapta Transform {
+					translation	12.68 0 0.75
+					 children [
+				 Transform {
+					translation	-6.7 0.2 -0.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 0.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 0.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 1.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 2.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 3.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 3.879
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.758 
+							}
+
+		        		}
+					]
+				 }
+
+
+
+
+			 ]}
+
+		DEF	BorduraPavajCentralaStanga Transform {
+					translation	11.525 0 0.75
+					 children [
+				 Transform {
+					translation	-6.7 0.2 -0.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 0.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 0.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 1.803
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 1.106 
+							}
+
+		        		}
+					]
+				 }
+		 
+	
+
+
+
+
+			 ]}
+
+		DEF	BorduraPavajPoartaMicaStanga Transform {
+					translation	7 0 6.75
+					 children [
+
+				 Transform {
+					translation	-6.7 0.2 -1.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 -0.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 0.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 0.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 1.65
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.8 
+							}
+
+		        		}
+					]
+				 }
+		 
+	
+
+
+
+
+			 ]}
+
+		DEF	BorduraPavajPoartaMicaStanga Transform {
+					translation	8.4 0 6.75
+					 children [
+
+				 Transform {
+					translation	-6.7 0.2 -1.375
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 -0.625
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+				 Transform {
+					translation	-6.7 0.2 0.125
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 0.875
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.75 
+							}
+
+		        		}
+					]
+				 }
+
+				 Transform {
+					translation	-6.7 0.2 1.65
+					children [
+						Shape{
+							appearance USE Beton2
+							geometry Box{
+								size 0.2 0.15 0.8 
+							}
+
+		        		}
+					]
+				 }
+		 
+	
+
+
+
+
+			 ]}	 	 	 	 	 	 	 	 
+		 
+	]
+}
+
+
+
+]
+}
+
+ DEF	Becuri Transform {
+	children [
+		DEF CYCLE Script {
+   eventIn SFTime touchTime
+   field SFInt32 number 2
+   eventOut SFInt32 output
+   url "javascript:
+      function initialize() {
+         output = 0;
+      }
+      function touchTime(value, time) {
+         if (output == number - 1) output = 0;
+         else ++output;
+      }
+   "
+}
+
+
+DEF SWITCH Switch {
+   whichChoice 0
+   choice [
+	  Inline {
+			url	 "Becuri2.wrl"
+		}
+      Inline {
+			url	"Becuri1.wrl"
+		} 
+   ]
+}
+
+
+
+	]
+}
+
+
+
+
+Transform {
+			translation	9.1 0.2 9.7
+			children [
+				DEF	SENSOR3 TouchSensor	{}
+		 
+				 Shape{
+					appearance USE On
+		    		geometry Cylinder{
+					radius 0.4
+		    		height 0.1
+		    		}
+				}
+			]
+		}
+
+
+
+
+DEF	SchimbareViewpoint Transform {
+	children [
+		DEF CYCLE3 Script {
+   eventIn SFTime touchTime
+   field SFInt32 number 2
+   eventOut SFInt32 output
+   url "javascript:
+      function initialize() {
+         output = 0;
+      }
+      function touchTime(value, time) {
+         if (output == number - 1) output = 0;
+         else ++output;
+      }
+   "
+}
+
+
+DEF SWITCH3 Switch {
+   whichChoice 0
+   choice [
+	   DEF	SchimbareViewpoint Transform{
+	translation	0.2 0 0
+	scale	1 1.2 1
+	children [
+	Inline {
+	url	"SchimbareViewpoint.wrl"
+
+}
+]
+} 
+	  Inline {
+			url	 "Gol.wrl"
+		}
+
+   ]
+}
+
+
+
+	]
+}
+
+
+
+
+
+ROUTE SENSOR.touchTime TO CYCLE.touchTime
+ROUTE CYCLE.output TO SWITCH.whichChoice
+
+
+
+ROUTE SENSOR2.touchTime TO CYCLE2.touchTime
+ROUTE CYCLE2.output TO SWITCH2.whichChoice
+
+
+
+ROUTE SENSOR3.touchTime TO CYCLE3.touchTime
+ROUTE CYCLE3.output TO SWITCH3.whichChoice
+
+
+
+
+
+ROUTE SenzorUsaCentrala.rotation_changed TO UsaCentrala.set_rotation

@@ -1,0 +1,576 @@
+#VRML V2.0 utf8
+
+DEF White Appearance{
+	material Material {
+		diffuseColor 1.00 1.00 1.00
+		transparency 0.4
+	}
+}
+
+
+DEF Negru Appearance{
+	material Material {
+		diffuseColor 0 0 0
+		transparency 0.7
+	}
+}
+
+#Fata Poarta Mica
+
+DEF View0 Viewpoint {
+   position 1 1 12.8
+   jump	FALSE
+}
+
+Transform{
+	children[
+		DEF touch0 TouchSensor {}
+		Transform {
+			translation	1 0.2 9.8
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.5
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+
+		Transform {
+			translation	1 0.2 4.8
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+
+		Transform {
+			translation	-3.8 0.2 9.8
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+	]
+}
+
+
+
+DEF touch0Script Script {
+   eventIn SFBool touch0IsActive
+   eventOut SFBool bindView0
+   
+   url [ "javascript:
+		function touch0IsActive(active) {
+			bindView0 = TRUE;
+		}",
+	 "vrmlscript:
+		function touch0IsActive(active) {
+			bindView0 = TRUE;
+		}",
+	 ]
+}
+
+
+ROUTE touch0.isActive TO touch0Script.touch0IsActive
+ROUTE touch0Script.bindView0 TO View0.set_bind
+
+
+#Fata Usa Principala
+
+
+
+DEF View1 Viewpoint {
+   position 1 1 7.5
+   jump	FALSE
+}
+
+
+
+
+
+Transform{
+	children[
+		DEF touch1 TouchSensor {}
+		Transform {
+			translation	1 0.2 4.1
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.5
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		Transform {
+			translation	-3.8 0.2 4.1
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		Transform {
+			translation	4.6 0.2 4.1
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		Transform {
+			translation	1 0.2 9.1
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+	]
+}
+
+
+
+DEF touch1Script Script {
+   eventIn SFBool touch1IsActive
+   eventOut SFBool bindView1
+   
+   url [ "javascript:
+		function touch1IsActive(active) {
+			bindView1 = TRUE;
+		}",
+	 "vrmlscript:
+		function touch1IsActive(active) {
+			bindView1 = TRUE;
+		}",
+	 ]
+}
+
+
+ROUTE touch1.isActive TO touch1Script.touch1IsActive
+ROUTE touch1Script.bindView1 TO View1.set_bind
+
+
+
+#Fata Garaj
+
+
+
+DEF View2 Viewpoint {
+   position -4.5 1 7.5
+   jump	FALSE
+}
+
+Transform{
+	children[
+		DEF touch2 TouchSensor {}
+		Transform {
+			translation	-4.5 0.2 4.1
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.5
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		Transform {
+			translation	0.3 0.2 4.1
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+
+		Transform {
+			translation	-4.5 0.2 9.1
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		
+	]
+}
+
+
+
+DEF touch2Script Script {
+   eventIn SFBool touch2IsActive
+   eventOut SFBool bindView2
+   
+   url [ "javascript:
+		function touch2IsActive(active) {
+			bindView2 = TRUE;
+		}",
+	 "vrmlscript:
+		function touch2IsActive(active) {
+			bindView2 = TRUE;
+		}",
+	 ]
+}
+
+
+ROUTE touch2.isActive TO touch2Script.touch2IsActive
+ROUTE touch2Script.bindView2 TO View2.set_bind
+
+
+
+
+ #Fata Centrala
+
+
+
+
+DEF View3 Viewpoint {
+   position 5.3 1 7.5
+   jump	FALSE
+}
+
+Transform{
+	children[
+		DEF touch3 TouchSensor {}
+		Transform {
+			translation	5.3 0.2 4.1
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.5
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		Transform {
+			translation	1.7 0.2 4.1
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+
+		Transform {
+			translation	5.4 0.2 1.7
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		
+	]
+}
+
+
+
+DEF touch3Script Script {
+   eventIn SFBool touch3IsActive
+   eventOut SFBool bindView3
+   
+   url [ "javascript:
+		function touch3IsActive(active) {
+			bindView3 = TRUE;
+		}",
+	 "vrmlscript:
+		function touch3IsActive(active) {
+			bindView3 = TRUE;
+		}",
+	 ]
+}
+
+
+ROUTE touch3.isActive TO touch3Script.touch3IsActive
+ROUTE touch3Script.bindView3 TO View3.set_bind
+
+
+
+
+
+
+
+#Fata Poarta Mare
+
+
+
+
+DEF View4 Viewpoint {
+   position -4.5 1 12.8
+   jump	FALSE
+}
+
+Transform{
+	children[
+		DEF touch4 TouchSensor {}
+		Transform {
+			translation	-4.5 0.2 9.8
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.5
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		Transform {
+			translation	-4.5 0.2 4.8
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+
+		Transform {
+			translation	0.3 0.2 9.8
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		
+	]
+}
+
+
+
+DEF touch4Script Script {
+   eventIn SFBool touch4IsActive
+   eventOut SFBool bindView4
+   
+   url [ "javascript:
+		function touch4IsActive(active) {
+			bindView4 = TRUE;
+		}",
+	 "vrmlscript:
+		function touch4IsActive(active) {
+			bindView4 = TRUE;
+		}",
+	 ]
+}
+
+
+ROUTE touch4.isActive TO touch4Script.touch4IsActive
+ROUTE touch4Script.bindView4 TO View4.set_bind
+
+
+
+
+#Deasupra
+
+
+DEF View5 Viewpoint {
+   position -1 19 10.5
+   orientation 1 0 0 -1.2
+   jump	FALSE
+}
+
+Transform{
+	children[
+		DEF touch5 TouchSensor {}
+		Transform {
+			translation	-4.5 0.2 10.5
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+
+		Transform {
+			translation	1 0.2 10.5
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+
+		Transform {
+			translation	-0.5 -0.7 -5
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 1
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		
+	]
+}
+
+
+
+DEF touch5Script Script {
+   eventIn SFBool touch5IsActive
+   eventOut SFBool bindView5
+   
+   url [ "javascript:
+		function touch5IsActive(active) {
+			bindView5 = TRUE;
+		}",
+	 "vrmlscript:
+		function touch5IsActive(active) {
+			bindView5 = TRUE;
+		}",
+	 ]
+}
+
+
+ROUTE touch5.isActive TO touch5Script.touch5IsActive
+ROUTE touch5Script.bindView5 TO View5.set_bind
+
+
+
+
+#Fata Usa Centrala
+
+
+
+
+DEF View6 Viewpoint {
+   position 5.4 1 4.2
+   jump	FALSE
+}
+
+Transform{
+	children[
+		DEF touch6 TouchSensor {}
+		Transform {
+			translation	5.4 0.2 1.1
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.4
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		Transform {
+			translation	5.4 0.2 3.4
+			children [
+		 
+				 Shape{
+					appearance USE White
+		    		geometry Cylinder{
+					radius 0.2
+		    		height 0.02
+		    		}
+				}
+			]
+		}
+		
+	]
+}
+
+
+
+DEF touch6Script Script {
+   eventIn SFBool touch6IsActive
+   eventOut SFBool bindView6
+   
+   url [ "javascript:
+		function touch6IsActive(active) {
+			bindView6 = TRUE;
+		}",
+	 "vrmlscript:
+		function touch6IsActive(active) {
+			bindView6 = TRUE;
+		}",
+	 ]
+}
+
+
+ROUTE touch6.isActive TO touch6Script.touch6IsActive
+ROUTE touch6Script.bindView6 TO View6.set_bind

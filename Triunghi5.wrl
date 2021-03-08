@@ -1,0 +1,27 @@
+#VRML V2.0 utf8
+
+
+DEF	Geam6 Appearance{
+	texture ImageTexture{
+		url"Texturi/geam6.png"
+	}
+}
+
+Transform{
+
+	children [
+Shape {
+  appearance USE Geam6
+  geometry Extrusion {
+    creaseAngle 6.28
+	convex TRUE
+    crossSection [ -1 0, 1 0, 0 1, -1 0]
+    spine [ 0 0 0 , 0 0.01 0 ]
+	scale 3 1.9
+   endCap TRUE
+   beginCap	TRUE
+   solid TRUE
+  }
+}
+]
+}
